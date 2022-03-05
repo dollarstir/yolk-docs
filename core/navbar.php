@@ -135,10 +135,21 @@ class Navbar
     {
         return'<div class="sidenav">
         <a href="#gettingstarted">Getting Started</a>
-        <a href="#services">Services</a>
-        <a href="#clients">Clients</a>
-        <a href="#contact">Contact</a>
-        <button class="dropdown-btn">Dropdown 
+        <button class="dropdown-btn">Components 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="#acordion">Acordion</a>
+        <a href="#alerts">Alerts</a>
+        <a href="#badge">Badge</a>
+        <a href="#progressbar">Progress Bars</a>
+        
+        <a href="#buttons">Buttons</a>
+      </div>
+
+      
+        
+        <button class="dropdown-btn">UI Elements  
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
@@ -147,17 +158,7 @@ class Navbar
           <a href="#">Link 3</a>
         </div>
         <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
-        <a href="#contact">Search</a>
+        
       </div>
       ';
     }

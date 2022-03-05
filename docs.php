@@ -123,17 +123,78 @@ import('js'),
                                                             el::image('yolkassets/img/yat.png'),
                                                         ]),
                                                         el::p('', [
-                                                            el::h3('', 'Linking Css files.'),
+                                                            el::h3('', 'Linking CSS files.'),
                                                             'To link css you ',
                                                             el::ol('', [
-                                                                el::li('', 'go to your settings folder and open the css.php'),
+                                                                el::li('', 'go to your settings folder and open the <strong>css.php</strong>'),
                                                                 el::li('', 'seperate your links with commas as shown in the picture below '),
                                                             ]),
                                                         ]),
                                                         el::p('', [
-                                                            el::image(''),
+                                                            el::image('yolkassets/img/css.png'),
                                                         ]),
-                                                    ]),
+
+                                                        el::p('', [
+                                                            el::h3('', 'Linking JS files.'),
+                                                            'To link js you ',
+                                                            el::ol('', [
+                                                                el::li('', 'go to your settings folder and open the <strong>js.php</strong>'),
+                                                                el::li('', 'seperate your links with commas as shown in the picture below '),
+                                                            ]),
+                                                        ]),
+                                                        el::p('', [
+                                                            el::image('yolkassets/img/js.png'),
+                                                        ]),
+
+                                                        el::p('', [
+                                                            el::h3('', 'Linking Favicon files.'),
+                                                            'To link favicon you ',
+                                                            el::ol('', [
+                                                                el::li('', 'go to your settings folder and open the <strong>favicon.php</strong>'),
+                                                                el::li('', 'seperate your links with commas as shown in the picture below '),
+                                                            ]),
+                                                        ]),
+                                                        el::p('', [
+                                                            el::image('yolkassets/img/fav.png'),
+                                                        ]),
+
+                                                        el::p('', [
+                                                            el::h3('', 'Importing CSS in Main Project '),
+                                                            'To use the css we registered above ',
+                                                            el::ol('', [
+                                                                el::li('', 'open your <strong>main.php</strong> or any file you will use the <strong>css</strong> in '),
+                                                                el::li('', 'Write the below code  inside the yolk head element as show below'),
+                                                                el::li('', [CodeBox('php', 'import("css"),')]),
+                                                            ]),
+                                                        ]),
+                                                        el::p('', [
+                                                            el::image('yolkassets/img/ic.png'),
+                                                        ]),
+
+                                                        el::p('', [
+                                                            el::h3('', 'Importing JS in Main Project '),
+                                                            'To use the JS we registered above ',
+                                                            el::ol('', [
+                                                                el::li('', 'open your <strong>main.php</strong> or any file you will use the <strong>js</strong> in '),
+                                                                el::li('', 'Write the below code at the far end  inside the yolk body element as show below'),
+                                                                el::li('', [CodeBox('php', 'import("js"),')]),
+                                                            ]),
+                                                        ]),
+                                                        el::p('', [
+                                                            el::image('yolkassets/img/ij.png'),
+                                                        ]),
+                                                        el::p('', [
+                                                            el::h3('', 'Importing favicon in Main Project '),
+                                                            'To use the faviocon we registered above ',
+                                                            el::ol('', [
+                                                                el::li('', 'open your <strong>main.php</strong> or any file you will use the <strong>favicon</strong> in '),
+                                                                el::li('', 'Write the below code inside the yolk head element just above the <strong>import("css")</strong> as show below'),
+                                                                el::li('', [CodeBox('php', 'import("favicon"),')]),
+                                                            ]),
+                                                        ]),
+                                                        el::p('', [
+                                                            el::image('yolkassets/img/if.png'),
+                                                        ]),                                                    ]),
                                                 ]),
                                                 el::div('class="spacey"', []),
                                             ]),

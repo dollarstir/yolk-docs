@@ -1,8 +1,5 @@
 <?php
 
-// var_dump(import());
-
-// Developed by Frederick Ennin (Dollarstir)
 require 'components/header.php';
 
 YolkUI::run(new Wrapper(
@@ -19,7 +16,6 @@ YolkUI::run(new Wrapper(
                     import('favicon'),
                     Yolk::uicore('corecss'),
                     import('css'),
-                    import('php'),
                 ]
             ),
             el::body(
