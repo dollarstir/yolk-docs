@@ -82,8 +82,9 @@ YolkUI::run(new Wrapper(
                             ),
                         ]
                     ),
-                    Yolk::uicore('corejs'),
+
                     import('js'),
+                    Yolk::uicore('corejs'),
                     el::script('', [
                         'var dropdown = document.getElementsByClassName("dropdown-btn");
                         var i;
