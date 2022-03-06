@@ -78,7 +78,14 @@ YolkUI::run(new Wrapper(
                                                         el::image('yolkassets/img/al2.png'),
                                                         el::p('','After this you can now add any of the alert below inside the body'),
                                                         el::p('',[
-                                                        CodeBox('php'," alert::basic('success', 'basic success alert')   alert::basic('primary', 'basic primary alert'), "),
+                                                        CodeBox('php',"alert::basic('success', 'basic success alert') 
+alert::basic('primary', 'basic primary alert') 
+alert::basic('secondary', 'basic secondary alert')
+alert::basic('danger', 'basic danger alert')
+alert::basic('warning', 'basic warning alert')  
+alert::basic('info', 'basic info alert')
+alert::basic('dark', 'basic dark alert')
+alert::basic('light', 'basic light alert')"),
 
                                                         ]),
                                                     ]),
