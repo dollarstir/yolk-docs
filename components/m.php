@@ -50,9 +50,33 @@ YolkUI::run(new Wrapper(
                                             ),
 
                                             el::divi('id="contents"', [
-                                                el::div('id="'.$context['id'].'"', [
+                                                el::div('id="accordion"', [
                                                     el::divi('id="getStarted"', [
                                                         'Accordion',
+                                                    ]),
+                                                    el::divi('id="introbox"', [
+                                                        el::p('', 'Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.'),
+                                                    ]),
+                                                    el::divi('id="pcont"', [
+                                                        el::h3('', ['How it works']),
+                                                        el::p('', [
+                                                            'The accordion uses collapse internally to make it collapsible. To render an accordion that’s expanded, add the .open class on the .accordion.',
+                                                        ]),
+
+                                                        el::h3('', ['Example']),
+                                                        el::p('', 'Click the accordions below to expand/collapse the accordion content.'),
+                                                        component::accordion([
+                                                            'Introduction to Yolk' => 'In this topic we will be talking into details what you have to know',
+                                                            'Fighting to Yolk' => 'In this topic we will be talking into details what you have to know',
+                                                            'Man of the moment' => 'In this topic we will be talking into details what you have to know',
+                                                        ]),
+                                                    ]),
+                                                ]),
+
+                                                // dealing with alerts
+                                                el::div('id="alerts"', [
+                                                    el::divi('id="getStarted"', [
+                                                        'Alerts',
                                                     ]),
                                                     el::divi('id="introbox"', [
                                                         el::p('', 'Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.'),
@@ -82,9 +106,9 @@ YolkUI::run(new Wrapper(
                             ),
                         ]
                     ),
-
-                    import('js'),
                     Yolk::uicore('corejs'),
+                    import('js'),
+
                     el::script('', [
                         'var dropdown = document.getElementsByClassName("dropdown-btn");
                         var i;

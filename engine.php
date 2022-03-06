@@ -16,9 +16,16 @@ $router = new Router([
         }
     ),
     new Route(
-        '/documentation/{id}',
+        '/component/accordion',
         function ($context) {
-            return Viewer::view('/m.php', $context);
+            return Viewer::view('/components/m.php', $context);
+        }
+    ),
+
+    new Route(
+        '/component/alert',
+        function ($context) {
+            return Viewer::view('/components/alert.php', $context);
         }
     ),
     new Route(
