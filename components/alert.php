@@ -100,6 +100,7 @@ alert::basic('light', 'basic light alert')"),
                                                         alert::closable('light', 'basic light alert'),
 
                                                         el::p('','Below are the codes for each closable alert'),
+                                                        el::p('','<strong>Note : in the below codes the first parameter of each closable function is type of alert, which can be (success, primary, secondary, danger, info, light and dark) .  <br>Second parameter  is the message to display in alert. <br> last parameter is any other attributes you want to add which is optional eg :  is alert::closable("success","success","some message ", "attributename=\'value\'")</strong>'),
                                                         CodeBox('php',"
 alert::closable('success', 'basic success alert'),
 alert::closable('primary', 'basic primary alert'),
