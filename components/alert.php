@@ -50,29 +50,37 @@ YolkUI::run(new Wrapper(
                                             ),
 
                                             el::divi('id="contents"', [
-                                                // dealing with alerts
                                                 el::div('id="alerts"', [
                                                     el::divi('id="getStarted"', [
                                                         'Alerts',
                                                     ]),
                                                     el::divi('id="introbox"', [
-                                                        el::p('', 'Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.'),
+                                                        el::p('', 'Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.'),
                                                     ]),
                                                     el::divi('id="pcont"', [
-                                                        el::h3('', ['How it works']),
-                                                        el::p('', [
-                                                            'The accordion uses collapse internally to make it collapsible. To render an accordion that’s expanded, add the .open class on the .accordion.',
-                                                        ]),
+                                                        el::h3('', ['Examples of Basic Alerts']),
+                                                        el::p('', 'Alerts are available for any length of text, as well as an optional close button. For proper styling, use one of the eight required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts JavaScript plugin.'),
+                                                        alert::basic('success', 'basic success alert'),
+                                                        alert::basic('primary', 'basic primary alert'),
+                                                        alert::basic('secondary', 'basic secondary alert'),
+                                                        alert::basic('danger', 'basic danger alert'),
+                                                        alert::basic('warning', 'basic warning alert'),
+                                                        alert::basic('info', 'basic info alert'),
+                                                        alert::basic('dark', 'basic dark alert'),
+                                                        alert::basic('light', 'basic light alert'),
 
-                                                        el::h3('', ['Example']),
-                                                        el::p('', 'Click the accordions below to expand/collapse the accordion content.'),
-                                                        component::accordion([
-                                                            'Introduction to Yolk' => 'In this topic we will be talking into details what you have to know',
-                                                            'Fighting to Yolk' => 'In this topic we will be talking into details what you have to know',
-                                                            'Man of the moment' => 'In this topic we will be talking into details what you have to know',
-                                                        ]),
+                                                        el::p('', 'To use this component , first add below code inside your yolk head element just below import("favicon")'),
+                                                        el::p('', [CodeBox('php', 'Yolk::uicore("corecss")')]),
+                                                        el::image('yolkassets/img/al1.png'),
+
+                                                        el::p('', 'Secondly add below code  at the far end inside the body element '),
+                                                        el::p('', [CodeBox('php', 'Yolk::uicore("corejs")')]),
+                                                        el::image('yolkassets/img/al2.png'),
                                                     ]),
                                                 ]),
+
+                                                // dealing with alerts
+
                                                 // el::div('class="spacey"', []),
 
                                                 el::div('class="spacey"', []),
