@@ -21,7 +21,7 @@ function topbar($pid)
         case 2:
                 return el::div('class="tbar"',
                 [
-                     Navbar::basiclight('', Navbar::Navbrand('/home', [el::image('yolkassets/img/logo.png', 'class="logo"')]),
+                     Navbar::basiclight('', Navbar::Navbrand('/', [el::image('yolkassets/img/logo.png', 'class="logo"')]),
                      [
                         Navbar::Navactive('', ['Guide' => '/documentation']),
                         Navbar::Navbasic('', ['Component' => 'components']),
