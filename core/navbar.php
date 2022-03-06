@@ -140,7 +140,7 @@ class Navbar
       </button>
       <div class="dropdown-container">
         <a href="/component/accordion">Acordion</a>
-        <a href="/component/alerts">Alerts</a>
+        <a href="/component/alert">Alerts</a>
         <a href="#badge">Badge</a>
         <a href="#progressbar">Progress Bars</a>
         

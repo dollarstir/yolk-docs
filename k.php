@@ -18,6 +18,8 @@ el::body([
     el::div('class="container"', [
        alert::basic('success','Basic success alert'),
     ]),
+
+Yolk::uicore('corejs'),
 import('js'),
 ]),
 ])
