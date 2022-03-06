@@ -76,6 +76,11 @@ YolkUI::run(new Wrapper(
                                                         el::p('', 'Secondly add below code  at the far end inside the body element '),
                                                         el::p('', [CodeBox('php', 'Yolk::uicore("corejs")')]),
                                                         el::image('yolkassets/img/al2.png'),
+                                                        el::p('','After this you can now add any of the alert below inside the body'),
+                                                        el::p('',[
+                                                        CodeBox('php'," alert::basic('success', 'basic success alert')   alert::basic('primary', 'basic primary alert'), "),
+
+                                                        ]),
                                                     ]),
                                                 ]),
 
