@@ -77,6 +77,7 @@ YolkUI::run(new Wrapper(
                                                         el::p('', [CodeBox('php', 'Yolk::uicore("corejs")')]),
                                                         el::image('yolkassets/img/al2.png'),
                                                         el::p('','After this you can now add any of the alert below inside the body'),
+                                                        el::p('','<strong>Note : in the below codes the first parameter of each basic function is type of alert, which can be (success, primary, secondary, danger, info, light and dark) .  <br>Second parameter  is the message to display in alert. <br> last parameter is any other attributes you want to add which is optional eg :  is alert::basic("success","some message ", "attributename=\'value\'")</strong>'),
                                                         el::p('',[
                                                         CodeBox('php',"alert::basic('success', 'basic success alert') 
 alert::basic('primary', 'basic primary alert') 
@@ -100,7 +101,7 @@ alert::basic('light', 'basic light alert')"),
                                                         alert::closable('light', 'basic light alert'),
 
                                                         el::p('','Below are the codes for each closable alert'),
-                                                        el::p('','<strong>Note : in the below codes the first parameter of each closable function is type of alert, which can be (success, primary, secondary, danger, info, light and dark) .  <br>Second parameter  is the message to display in alert. <br> last parameter is any other attributes you want to add which is optional eg :  is alert::closable("success","success","some message ", "attributename=\'value\'")</strong>'),
+                                                        el::p('','<strong>Note : in the below codes the first parameter of each closable function is type of alert, which can be (success, primary, secondary, danger, info, light and dark) .  <br>Second parameter  is the message to display in alert. <br> last parameter is any other attributes you want to add which is optional eg :  is alert::closable("success","some message ", "attributename=\'value\'")</strong>'),
                                                         CodeBox('php',"
 alert::closable('success', 'basic success alert'),
 alert::closable('primary', 'basic primary alert'),
