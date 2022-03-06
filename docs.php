@@ -196,8 +196,7 @@ import('js'),
                                                             el::image('yolkassets/img/if.png'),
                                                         ]),                                                    ]),
                                                 ]),
-                                                el::div('class="spacey"', []),
-                                            ]),
+                                                el::div('class="spacey"', []), ]),
                                         ]
                                     ),
                                 ]
