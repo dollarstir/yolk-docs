@@ -120,7 +120,18 @@ alert::closable('light', 'basic light alert'),"),
                                                         alert::iconalert('dark','info', 'basic dark alert'),
                                                         alert::iconalert('light','info', 'basic light alert'),
 
-                                                        el::p('','<strong>Note : in the below codes the first parameter of each iconalert function is type of alert, which can be (success, primary, secondary, danger, info, light and dark) . <br> Second parameter is icon type</strong>')
+                                                        el::p('','<strong>Note : in the below codes the first parameter of each iconalert function is type of alert, which can be (success, primary, secondary, danger, info, light and dark) . <br> Second parameter is the icon type (success, info and warning). <br>third parameter  is the message to display in alert. <br> last parameter is any other attributes you want to add which is optional eg :  is alert::iconalert("success","success","some message ", "attributename=\'value\'")</strong>'),
+                                                        codeBox('php',"
+
+alert::iconalert('success','success', 'basic success alert'),
+alert::iconalert('primary','info', 'basic primary alert'),
+alert::iconalert('secondary','info', 'basic secondary alert'),
+alert::iconalert('danger','warning', 'basic danger alert'),
+alert::iconalert('warning', 'warning','basic warning alert'),
+alert::iconalert('info','info', 'basic info alert'),
+alert::iconalert('dark','info', 'basic dark alert'),
+alert::iconalert('light','info', 'basic light alert'),"),
+
                                                         
 
 
