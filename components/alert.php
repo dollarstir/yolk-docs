@@ -88,6 +88,19 @@ alert::basic('dark', 'basic dark alert')
 alert::basic('light', 'basic light alert')"),
 
                                                         ]),
+
+                                                        el::h2('','Alert With Close button'),
+                                                        alert::closable('success', 'basic success alert'),
+                                                        alert::closable('primary', 'basic primary alert'),
+                                                        alert::closable('secondary', 'basic secondary alert'),
+                                                        alert::closable('danger', 'basic danger alert'),
+                                                        alert::closable('warning', 'basic warning alert'),
+                                                        alert::closable('info', 'basic info alert'),
+                                                        alert::closable('dark', 'basic dark alert'),
+                                                        alert::closable('light', 'basic light alert'),
+
+                                                        el::p('','Below are the codes for each')
+                                                       
                                                     ]),
                                                 ]),
 
