@@ -110,7 +110,20 @@ alert::closable('info', 'basic info alert'),
 alert::closable('dark', 'basic dark alert'),
 alert::closable('light', 'basic light alert'),"),       
 
-                                                        el::h2('','Alert With Close button'),
+                                                        el::h2('','Alert With icons'),
+                                                        alert::iconalert('success','success', 'basic success alert'),
+                                                        alert::iconalert('primary','info', 'basic primary alert'),
+                                                        alert::iconalert('secondary','info', 'basic secondary alert'),
+                                                        alert::iconalert('danger','warning', 'basic danger alert'),
+                                                        alert::iconalert('warning', 'warning','basic warning alert'),
+                                                        alert::iconalert('info','info', 'basic info alert'),
+                                                        alert::iconalert('dark','info', 'basic dark alert'),
+                                                        alert::iconalert('light','info', 'basic light alert'),
+
+                                                        el::p('','<strong>Note : in the below codes the first parameter of each iconalert function is type of alert, which can be (success, primary, secondary, danger, info, light and dark) . <br> Second parameter is icon type</strong>')
+                                                        
+
+
                                                     ]),
                                                 ]),
 
