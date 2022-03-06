@@ -139,7 +139,7 @@ class Navbar
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-container">
-        <a href="accordion">Acordion</a>
+        <a href="/accordion">Acordion</a>
         <a href="#alerts">Alerts</a>
         <a href="#badge">Badge</a>
         <a href="#progressbar">Progress Bars</a>
