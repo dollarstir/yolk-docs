@@ -11,6 +11,7 @@ YolkUI::run(new Wrapper(
             el::head(
                 [
                     meta::charset(),
+                    
                     meta::browser(),
                     meta::viewport(),
                     el::title('Documentation'),

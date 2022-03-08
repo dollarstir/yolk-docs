@@ -12,7 +12,7 @@ YolkUI::run(new Wrapper(
                 [
                     meta::charset(),
                     meta::author('Frederick Ennin'),
-                    meta::description('Php Yolk is lightweighted php framework that comes with almost all database queries , custom UI, custom ajax to handle request , php codes to process all request from the ajax '),
+                    meta::description('Php Yolk is lightweight php framework that comes with almost all database queries , custom UI, custom ajax to handle request , php codes to process all request from the ajax '),
                     meta::keywords('Php,Framework,Lightweight,Best,programming,developers,who,what,which'),
                     meta::browser(),
                     meta::viewport(),
