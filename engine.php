@@ -9,6 +9,13 @@ $router = new Router([
             return Viewer::view('/main.php', $context);
         }
     ),
+
+    new Route(
+        '/home',
+        function ($context) {
+            return Viewer::view('/main.php', $context);
+        }
+    ),
     new Route(
         '/k',
         function ($context) {
