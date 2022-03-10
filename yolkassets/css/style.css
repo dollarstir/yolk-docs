@@ -345,7 +345,7 @@ height: 45px;
   .sidenav a, .dropdown-btn {
 	padding: 6px 8px 6px 16px;
 	/* padding: 2rem; */
-	text-decoration-color: #ffcc00;
+	text-decoration: none;
 	font-size: 17px;
 	color: #818181;
 	display: block;
@@ -370,8 +370,8 @@ height: 45px;
   }
   
   /* Add an active class to the active dropdown button */
-  .active {
-	/* background-color: green; */
+ .active {
+	/* background-color: #ffcc00; */
 	/* color: white; */
   }
   
@@ -380,6 +380,25 @@ height: 45px;
 	display: none;
 	/* background-color: #262626; */
 	padding-left: 8px;
+  }
+  .dropdown-container a{
+	/* display: none; */
+	/* background-color: #262626; */
+	color:#898a84;
+	/* padding-left: 8px; */
+  }
+
+  .dropdown-container a::before{
+	/* display: none; */
+	/* background-color: #262626; */
+	color:#81817f;
+	/* padding-left: 8px; */
+	width:10px;
+	height:10px;
+	content: "<> ";
+	font-weight: bold;
+	margin-left:-10px;
+	
   }
   
   /* Optional: Style the caret down icon */
