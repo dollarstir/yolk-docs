@@ -170,7 +170,7 @@ class Navbar
         <a href="#">Adding user records (Sign Up)</a>
         <a href="#">Getting login user records</a>
       </div>
-        <a href="#contact">Search</a>
+        <a href="#contact">Plugins</a>
         
       </div>
       ';
