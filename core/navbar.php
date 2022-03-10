@@ -157,6 +157,19 @@ class Navbar
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
         </div>
+
+        <button class="dropdown-btn"> Yolk Backend  
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="#">Adding records to database</a>
+        <a href="#">Updating record in database</a>
+        <a href="#">Fetching All records from database</a>
+        <a href="#">Fetching  specific record from database</a>
+        <a href="#">Deleting recordds in database</a>
+        <a href="#">Adding user records (Sign Up)</a>
+        <a href="#">Getting login user records</a>
+      </div>
         <a href="#contact">Search</a>
         
       </div>
