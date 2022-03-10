@@ -345,7 +345,7 @@ height: 45px;
   .sidenav a, .dropdown-btn {
 	padding: 6px 8px 6px 16px;
 	/* padding: 2rem; */
-	text-decoration: none;
+	text-decoration-color: #ffcc00;
 	font-size: 17px;
 	color: #818181;
 	display: block;
