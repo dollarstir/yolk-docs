@@ -134,7 +134,7 @@ class Navbar
     public static function sbar()
     {
         return'<div class="sidenav">
-        <a href="#gettingstarted">Getting Started</a>
+        <a href="documentation">Getting Started</a>
         <button class="dropdown-btn">Components 
         <i class="fa fa-caret-down"></i>
       </button>
