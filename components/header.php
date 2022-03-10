@@ -24,7 +24,7 @@ function topbar($pid)
                 [
                      Navbar::basiclight('', Navbar::Navbrand('home', [el::image('yolkassets/img/logo.png', 'class="logo"')]),
                      [
-                        Navbar::Navactive('', ['Guide' => '/documentation']),
+                        Navbar::Navactive('', ['Documentation' => '/documentation']),
                         Navbar::Navbasic('', ['Downloads' => 'download']),
                         // Navbar::Navbasic('', ['Component' => 'components']),
                         Navbar::Navbasic('', ['Plugins' => 'plugins']),
